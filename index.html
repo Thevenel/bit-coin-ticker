@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitcoin - Ticker</title>
+</head>
+<body>
+    <h1>Bitcoin Ticker</h1>
+    <form action="/" method="POST">
+
+        <input type="text" name="amount" placeholder="Quantity">
+        <select name="crypto">
+            <option value="BTC">Bitcoin</option>
+            <option value="ETH">Ethereum</option>
+            <option value="LTC">Litecoins</option>
+        </select>
+
+        <select name="fiat">
+            <option value="USD">US Dollars</option>
+            <option value="GBP">GB Pounds</option>
+            <option value="EUR">EU Euros</option>
+        </select>
+
+        <button type="submit">Check</button>
+    </form>
+</body>
+</html>
